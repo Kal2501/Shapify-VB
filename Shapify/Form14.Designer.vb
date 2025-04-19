@@ -41,13 +41,19 @@ Partial Class Balok
         Me.txtTinggi2 = New System.Windows.Forms.TextBox()
         Me.lbLuas = New System.Windows.Forms.Label()
         Me.lbVolume = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(40, 545)
         Me.Button1.Name = "Button1"
@@ -60,26 +66,25 @@ Partial Class Balok
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(31, 338)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(84, 36)
+        Me.Label5.Size = New System.Drawing.Size(88, 50)
         Me.Label5.TabIndex = 161
         Me.Label5.Text = "Luas"
         '
         'txtTinggi
         '
         Me.txtTinggi.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggi.Location = New System.Drawing.Point(40, 466)
+        Me.txtTinggi.Location = New System.Drawing.Point(122, 466)
         Me.txtTinggi.Name = "txtTinggi"
-        Me.txtTinggi.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggi.Size = New System.Drawing.Size(364, 24)
         Me.txtTinggi.TabIndex = 160
-        Me.txtTinggi.Text = "Tinggi"
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Black
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(519, 545)
         Me.Button2.Name = "Button2"
@@ -92,16 +97,16 @@ Partial Class Balok
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(510, 338)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(122, 36)
+        Me.Label6.Size = New System.Drawing.Size(134, 50)
         Me.Label6.TabIndex = 157
         Me.Label6.Text = "Volume"
         '
         'Label4
         '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(266, 182)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(699, 105)
@@ -114,10 +119,10 @@ Partial Class Balok
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(260, 130)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(285, 36)
+        Me.Label3.Size = New System.Drawing.Size(296, 50)
         Me.Label3.TabIndex = 154
         Me.Label3.Text = "Pengertian Singkat"
         '
@@ -131,13 +136,14 @@ Partial Class Balok
         Me.PictureBox1.Location = New System.Drawing.Point(40, 118)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(194, 194)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 153
         Me.PictureBox1.TabStop = False
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(40, 638)
         Me.Button9.Name = "Button9"
@@ -150,10 +156,10 @@ Partial Class Balok
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(29, 20)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 46)
+        Me.Label2.Size = New System.Drawing.Size(138, 66)
         Me.Label2.TabIndex = 151
         Me.Label2.Text = "Balok"
         '
@@ -170,65 +176,122 @@ Partial Class Balok
         'txtLebar
         '
         Me.txtLebar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLebar.Location = New System.Drawing.Point(40, 434)
+        Me.txtLebar.Location = New System.Drawing.Point(122, 434)
         Me.txtLebar.Name = "txtLebar"
-        Me.txtLebar.Size = New System.Drawing.Size(446, 24)
+        Me.txtLebar.Size = New System.Drawing.Size(364, 24)
         Me.txtLebar.TabIndex = 164
-        Me.txtLebar.Text = "Lebar"
         '
         'txtPanjang
         '
         Me.txtPanjang.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPanjang.Location = New System.Drawing.Point(40, 402)
+        Me.txtPanjang.Location = New System.Drawing.Point(122, 402)
         Me.txtPanjang.Name = "txtPanjang"
-        Me.txtPanjang.Size = New System.Drawing.Size(446, 24)
+        Me.txtPanjang.Size = New System.Drawing.Size(364, 24)
         Me.txtPanjang.TabIndex = 165
-        Me.txtPanjang.Text = "Panjang"
         '
         'txtPanjang2
         '
         Me.txtPanjang2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPanjang2.Location = New System.Drawing.Point(519, 402)
+        Me.txtPanjang2.Location = New System.Drawing.Point(609, 402)
         Me.txtPanjang2.Name = "txtPanjang2"
-        Me.txtPanjang2.Size = New System.Drawing.Size(446, 24)
+        Me.txtPanjang2.Size = New System.Drawing.Size(356, 24)
         Me.txtPanjang2.TabIndex = 169
-        Me.txtPanjang2.Text = "Panjang"
         '
         'txtLebar2
         '
         Me.txtLebar2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLebar2.Location = New System.Drawing.Point(519, 434)
+        Me.txtLebar2.Location = New System.Drawing.Point(609, 434)
         Me.txtLebar2.Name = "txtLebar2"
-        Me.txtLebar2.Size = New System.Drawing.Size(446, 24)
+        Me.txtLebar2.Size = New System.Drawing.Size(356, 24)
         Me.txtLebar2.TabIndex = 168
-        Me.txtLebar2.Text = "Lebar"
         '
         'txtTinggi2
         '
         Me.txtTinggi2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggi2.Location = New System.Drawing.Point(519, 466)
+        Me.txtTinggi2.Location = New System.Drawing.Point(609, 466)
         Me.txtTinggi2.Name = "txtTinggi2"
-        Me.txtTinggi2.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggi2.Size = New System.Drawing.Size(356, 24)
         Me.txtTinggi2.TabIndex = 166
-        Me.txtTinggi2.Text = "Tinggi"
         '
         'lbLuas
         '
         Me.lbLuas.AutoSize = True
+        Me.lbLuas.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbLuas.Location = New System.Drawing.Point(37, 508)
         Me.lbLuas.Name = "lbLuas"
-        Me.lbLuas.Size = New System.Drawing.Size(51, 17)
+        Me.lbLuas.Size = New System.Drawing.Size(63, 28)
         Me.lbLuas.TabIndex = 170
         Me.lbLuas.Text = "Hasil : "
         '
         'lbVolume
         '
         Me.lbVolume.AutoSize = True
+        Me.lbVolume.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbVolume.Location = New System.Drawing.Point(526, 508)
         Me.lbVolume.Name = "lbVolume"
-        Me.lbVolume.Size = New System.Drawing.Size(51, 17)
+        Me.lbVolume.Size = New System.Drawing.Size(63, 28)
         Me.lbVolume.TabIndex = 171
         Me.lbVolume.Text = "Hasil : "
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(526, 462)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(61, 28)
+        Me.Label7.TabIndex = 172
+        Me.Label7.Text = "Tinggi"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(526, 430)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(58, 28)
+        Me.Label8.TabIndex = 173
+        Me.Label8.Text = "Lebar"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(526, 398)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(77, 28)
+        Me.Label9.TabIndex = 174
+        Me.Label9.Text = "Panjang"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(35, 398)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(77, 28)
+        Me.Label10.TabIndex = 177
+        Me.Label10.Text = "Panjang"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(35, 430)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(58, 28)
+        Me.Label11.TabIndex = 176
+        Me.Label11.Text = "Lebar"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(35, 462)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(61, 28)
+        Me.Label12.TabIndex = 175
+        Me.Label12.Text = "Tinggi"
         '
         'Balok
         '
@@ -236,6 +299,12 @@ Partial Class Balok
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1006, 721)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.lbVolume)
         Me.Controls.Add(Me.lbLuas)
         Me.Controls.Add(Me.txtPanjang2)
@@ -279,4 +348,10 @@ Partial Class Balok
     Friend WithEvents txtTinggi2 As System.Windows.Forms.TextBox
     Friend WithEvents lbLuas As System.Windows.Forms.Label
     Friend WithEvents lbVolume As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

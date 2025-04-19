@@ -41,56 +41,59 @@ Partial Class Kerucut
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lbLuas = New System.Windows.Forms.Label()
         Me.lbVolume = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(518, 401)
+        Me.TextBox4.Location = New System.Drawing.Point(595, 401)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(446, 24)
+        Me.TextBox4.Size = New System.Drawing.Size(369, 24)
         Me.TextBox4.TabIndex = 205
         '
         'txtJariJari2
         '
         Me.txtJariJari2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtJariJari2.Location = New System.Drawing.Point(518, 433)
+        Me.txtJariJari2.Location = New System.Drawing.Point(595, 433)
         Me.txtJariJari2.Name = "txtJariJari2"
-        Me.txtJariJari2.Size = New System.Drawing.Size(446, 24)
+        Me.txtJariJari2.Size = New System.Drawing.Size(369, 24)
         Me.txtJariJari2.TabIndex = 204
-        Me.txtJariJari2.Text = "Jari-jari"
         '
         'txtTinggi
         '
         Me.txtTinggi.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggi.Location = New System.Drawing.Point(518, 465)
+        Me.txtTinggi.Location = New System.Drawing.Point(595, 465)
         Me.txtTinggi.Name = "txtTinggi"
-        Me.txtTinggi.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggi.Size = New System.Drawing.Size(369, 24)
         Me.txtTinggi.TabIndex = 202
-        Me.txtTinggi.Text = "Tinggi"
         '
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(39, 401)
+        Me.TextBox5.Location = New System.Drawing.Point(120, 401)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(446, 24)
+        Me.TextBox5.Size = New System.Drawing.Size(365, 24)
         Me.TextBox5.TabIndex = 201
         '
         'txtJariJari
         '
         Me.txtJariJari.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtJariJari.Location = New System.Drawing.Point(39, 433)
+        Me.txtJariJari.Location = New System.Drawing.Point(120, 433)
         Me.txtJariJari.Name = "txtJariJari"
-        Me.txtJariJari.Size = New System.Drawing.Size(446, 24)
+        Me.txtJariJari.Size = New System.Drawing.Size(365, 24)
         Me.txtJariJari.TabIndex = 200
-        Me.txtJariJari.Text = "Jari-jari"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(39, 544)
         Me.Button1.Name = "Button1"
@@ -103,26 +106,25 @@ Partial Class Kerucut
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(30, 337)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(84, 36)
+        Me.Label5.Size = New System.Drawing.Size(88, 50)
         Me.Label5.TabIndex = 197
         Me.Label5.Text = "Luas"
         '
         'txtSelimut
         '
         Me.txtSelimut.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSelimut.Location = New System.Drawing.Point(39, 465)
+        Me.txtSelimut.Location = New System.Drawing.Point(120, 465)
         Me.txtSelimut.Name = "txtSelimut"
-        Me.txtSelimut.Size = New System.Drawing.Size(446, 24)
+        Me.txtSelimut.Size = New System.Drawing.Size(365, 24)
         Me.txtSelimut.TabIndex = 196
-        Me.txtSelimut.Text = "Selimut"
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Black
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(518, 544)
         Me.Button2.Name = "Button2"
@@ -135,16 +137,16 @@ Partial Class Kerucut
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(509, 337)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(122, 36)
+        Me.Label6.Size = New System.Drawing.Size(134, 50)
         Me.Label6.TabIndex = 194
         Me.Label6.Text = "Volume"
         '
         'Label4
         '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(265, 181)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(699, 105)
@@ -157,10 +159,10 @@ Partial Class Kerucut
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(259, 129)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(285, 36)
+        Me.Label3.Size = New System.Drawing.Size(296, 50)
         Me.Label3.TabIndex = 192
         Me.Label3.Text = "Pengertian Singkat"
         '
@@ -174,13 +176,14 @@ Partial Class Kerucut
         Me.PictureBox1.Location = New System.Drawing.Point(39, 117)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(194, 194)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 191
         Me.PictureBox1.TabStop = False
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(39, 637)
         Me.Button9.Name = "Button9"
@@ -193,40 +196,102 @@ Partial Class Kerucut
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(28, 19)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(164, 46)
+        Me.Label2.Size = New System.Drawing.Size(182, 66)
         Me.Label2.TabIndex = 189
         Me.Label2.Text = "Kerucut"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(874, 45)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 25)
+        Me.Label1.Size = New System.Drawing.Size(90, 33)
         Me.Label1.TabIndex = 188
         Me.Label1.Text = "Shapify"
         '
         'lbLuas
         '
         Me.lbLuas.AutoSize = True
+        Me.lbLuas.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbLuas.Location = New System.Drawing.Point(40, 507)
         Me.lbLuas.Name = "lbLuas"
-        Me.lbLuas.Size = New System.Drawing.Size(51, 17)
+        Me.lbLuas.Size = New System.Drawing.Size(63, 28)
         Me.lbLuas.TabIndex = 206
         Me.lbLuas.Text = "Hasil : "
         '
         'lbVolume
         '
         Me.lbVolume.AutoSize = True
+        Me.lbVolume.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbVolume.Location = New System.Drawing.Point(515, 507)
         Me.lbVolume.Name = "lbVolume"
-        Me.lbVolume.Size = New System.Drawing.Size(51, 17)
+        Me.lbVolume.Size = New System.Drawing.Size(63, 28)
         Me.lbVolume.TabIndex = 207
         Me.lbVolume.Text = "Hasil : "
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(40, 461)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(74, 28)
+        Me.Label7.TabIndex = 208
+        Me.Label7.Text = "Selimut"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(40, 429)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(73, 28)
+        Me.Label8.TabIndex = 209
+        Me.Label8.Text = "Jari-jari"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(40, 397)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(37, 28)
+        Me.Label9.TabIndex = 210
+        Me.Label9.Text = "Phi"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(515, 397)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(37, 28)
+        Me.Label10.TabIndex = 213
+        Me.Label10.Text = "Phi"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(515, 429)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(73, 28)
+        Me.Label11.TabIndex = 212
+        Me.Label11.Text = "Jari-jari"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(515, 461)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(61, 28)
+        Me.Label12.TabIndex = 211
+        Me.Label12.Text = "Tinggi"
         '
         'Kerucut
         '
@@ -234,6 +299,12 @@ Partial Class Kerucut
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1006, 721)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.lbVolume)
         Me.Controls.Add(Me.lbLuas)
         Me.Controls.Add(Me.TextBox4)
@@ -277,4 +348,10 @@ Partial Class Kerucut
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lbLuas As System.Windows.Forms.Label
     Friend WithEvents lbVolume As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

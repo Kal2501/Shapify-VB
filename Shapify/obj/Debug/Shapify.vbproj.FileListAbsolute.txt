@@ -43,3 +43,31 @@ D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.PersegiPanj
 D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.BelahKetupat.resources
 D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Resources.resources
 D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.vbproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\bin\Debug\Shapify.exe.config
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\bin\Debug\Shapify.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\bin\Debug\Shapify.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\bin\Debug\Shapify.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Welcome.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.LayangLayang.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.JajarGenjang.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Trapesium.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Kubus.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Balok.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Tabung.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.PrismaSegitiga.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Bola.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Kerucut.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.LimasSegiEmpat.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Home.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.BangunDatar.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.BangunRuang.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Lingkaran.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Persegi.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Segitiga.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.PersegiPanjang.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.BelahKetupat.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify-VB\Shapify\obj\Debug\Shapify.vbproj.GenerateResource.Cache

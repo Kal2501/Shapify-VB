@@ -41,31 +41,35 @@ Partial Class PrismaSegitiga
         Me.txtTinggiPrisma2 = New System.Windows.Forms.TextBox()
         Me.lbVolume = New System.Windows.Forms.Label()
         Me.lbLuas = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtTinggiAlas
         '
         Me.txtTinggiAlas.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggiAlas.Location = New System.Drawing.Point(38, 432)
+        Me.txtTinggiAlas.Location = New System.Drawing.Point(168, 432)
         Me.txtTinggiAlas.Name = "txtTinggiAlas"
-        Me.txtTinggiAlas.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggiAlas.Size = New System.Drawing.Size(316, 24)
         Me.txtTinggiAlas.TabIndex = 201
-        Me.txtTinggiAlas.Text = "Tinggi Alas"
         '
         'txtTinggiPrisma
         '
         Me.txtTinggiPrisma.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggiPrisma.Location = New System.Drawing.Point(38, 464)
+        Me.txtTinggiPrisma.Location = New System.Drawing.Point(168, 464)
         Me.txtTinggiPrisma.Name = "txtTinggiPrisma"
-        Me.txtTinggiPrisma.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggiPrisma.Size = New System.Drawing.Size(316, 24)
         Me.txtTinggiPrisma.TabIndex = 200
-        Me.txtTinggiPrisma.Text = "Tinggi Prisma"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(38, 543)
         Me.Button1.Name = "Button1"
@@ -78,17 +82,17 @@ Partial Class PrismaSegitiga
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(29, 336)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(84, 36)
+        Me.Label5.Size = New System.Drawing.Size(88, 50)
         Me.Label5.TabIndex = 197
         Me.Label5.Text = "Luas"
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Black
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(517, 543)
         Me.Button2.Name = "Button2"
@@ -101,16 +105,16 @@ Partial Class PrismaSegitiga
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(508, 336)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(122, 36)
+        Me.Label6.Size = New System.Drawing.Size(134, 50)
         Me.Label6.TabIndex = 194
         Me.Label6.Text = "Volume"
         '
         'Label4
         '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(264, 180)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(699, 105)
@@ -123,10 +127,10 @@ Partial Class PrismaSegitiga
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(258, 128)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(285, 36)
+        Me.Label3.Size = New System.Drawing.Size(296, 50)
         Me.Label3.TabIndex = 192
         Me.Label3.Text = "Pengertian Singkat"
         '
@@ -140,13 +144,14 @@ Partial Class PrismaSegitiga
         Me.PictureBox1.Location = New System.Drawing.Point(38, 116)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(194, 194)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 191
         Me.PictureBox1.TabStop = False
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(38, 636)
         Me.Button9.Name = "Button9"
@@ -159,76 +164,134 @@ Partial Class PrismaSegitiga
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(27, 18)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(314, 46)
+        Me.Label2.Size = New System.Drawing.Size(329, 66)
         Me.Label2.TabIndex = 189
         Me.Label2.Text = "Prisma Segitiga"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(873, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 25)
+        Me.Label1.Size = New System.Drawing.Size(90, 33)
         Me.Label1.TabIndex = 188
         Me.Label1.Text = "Shapify"
         '
         'txtAlas
         '
         Me.txtAlas.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAlas.Location = New System.Drawing.Point(38, 400)
+        Me.txtAlas.Location = New System.Drawing.Point(168, 400)
         Me.txtAlas.Name = "txtAlas"
-        Me.txtAlas.Size = New System.Drawing.Size(446, 24)
+        Me.txtAlas.Size = New System.Drawing.Size(316, 24)
         Me.txtAlas.TabIndex = 206
-        Me.txtAlas.Text = "Alas alas"
         '
         'txtAlas2
         '
         Me.txtAlas2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAlas2.Location = New System.Drawing.Point(517, 400)
+        Me.txtAlas2.Location = New System.Drawing.Point(647, 400)
         Me.txtAlas2.Name = "txtAlas2"
-        Me.txtAlas2.Size = New System.Drawing.Size(446, 24)
+        Me.txtAlas2.Size = New System.Drawing.Size(316, 24)
         Me.txtAlas2.TabIndex = 210
-        Me.txtAlas2.Text = "Alas alas"
         '
         'txtTinggiAlas2
         '
         Me.txtTinggiAlas2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggiAlas2.Location = New System.Drawing.Point(517, 432)
+        Me.txtTinggiAlas2.Location = New System.Drawing.Point(647, 432)
         Me.txtTinggiAlas2.Name = "txtTinggiAlas2"
-        Me.txtTinggiAlas2.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggiAlas2.Size = New System.Drawing.Size(316, 24)
         Me.txtTinggiAlas2.TabIndex = 209
-        Me.txtTinggiAlas2.Text = "Tinggi Alas"
         '
         'txtTinggiPrisma2
         '
         Me.txtTinggiPrisma2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTinggiPrisma2.Location = New System.Drawing.Point(517, 464)
+        Me.txtTinggiPrisma2.Location = New System.Drawing.Point(647, 464)
         Me.txtTinggiPrisma2.Name = "txtTinggiPrisma2"
-        Me.txtTinggiPrisma2.Size = New System.Drawing.Size(446, 24)
+        Me.txtTinggiPrisma2.Size = New System.Drawing.Size(316, 24)
         Me.txtTinggiPrisma2.TabIndex = 208
-        Me.txtTinggiPrisma2.Text = "Tinggi Prisma"
         '
         'lbVolume
         '
         Me.lbVolume.AutoSize = True
+        Me.lbVolume.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbVolume.Location = New System.Drawing.Point(522, 508)
         Me.lbVolume.Name = "lbVolume"
-        Me.lbVolume.Size = New System.Drawing.Size(51, 17)
+        Me.lbVolume.Size = New System.Drawing.Size(63, 28)
         Me.lbVolume.TabIndex = 212
         Me.lbVolume.Text = "Hasil : "
         '
         'lbLuas
         '
         Me.lbLuas.AutoSize = True
+        Me.lbLuas.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbLuas.Location = New System.Drawing.Point(43, 508)
         Me.lbLuas.Name = "lbLuas"
-        Me.lbLuas.Size = New System.Drawing.Size(51, 17)
+        Me.lbLuas.Size = New System.Drawing.Size(63, 28)
         Me.lbLuas.TabIndex = 211
         Me.lbLuas.Text = "Hasil : "
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(43, 460)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(120, 28)
+        Me.Label7.TabIndex = 213
+        Me.Label7.Text = "Tinggi Prisma"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(43, 428)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(99, 28)
+        Me.Label8.TabIndex = 214
+        Me.Label8.Text = "Tinggi Alas"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(43, 396)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(85, 28)
+        Me.Label9.TabIndex = 215
+        Me.Label9.Text = "Alas Alas"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(522, 400)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(85, 28)
+        Me.Label10.TabIndex = 218
+        Me.Label10.Text = "Alas Alas"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(522, 432)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(99, 28)
+        Me.Label11.TabIndex = 217
+        Me.Label11.Text = "Tinggi Alas"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(522, 464)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(120, 28)
+        Me.Label12.TabIndex = 216
+        Me.Label12.Text = "Tinggi Prisma"
         '
         'PrismaSegitiga
         '
@@ -236,6 +299,12 @@ Partial Class PrismaSegitiga
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1006, 721)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.lbVolume)
         Me.Controls.Add(Me.lbLuas)
         Me.Controls.Add(Me.txtAlas2)
@@ -279,4 +348,10 @@ Partial Class PrismaSegitiga
     Friend WithEvents txtTinggiPrisma2 As System.Windows.Forms.TextBox
     Friend WithEvents lbVolume As System.Windows.Forms.Label
     Friend WithEvents lbLuas As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

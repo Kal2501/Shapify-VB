@@ -31,10 +31,10 @@ Partial Class Home
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(347, 252)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(319, 32)
+        Me.Label3.Size = New System.Drawing.Size(305, 45)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Mau hitung apa hari ini?"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -42,7 +42,7 @@ Partial Class Home
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Silver
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(76, 323)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(416, 106)
@@ -53,7 +53,7 @@ Partial Class Home
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Silver
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(507, 323)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(416, 106)
@@ -64,10 +64,10 @@ Partial Class Home
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(874, 41)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 25)
+        Me.Label1.Size = New System.Drawing.Size(90, 33)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Shapify"
         '

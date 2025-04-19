@@ -47,10 +47,10 @@ Partial Class BangunDatar
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(874, 41)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 25)
+        Me.Label1.Size = New System.Drawing.Size(90, 33)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Shapify"
         '
@@ -58,10 +58,10 @@ Partial Class BangunDatar
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(28, 15)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(277, 46)
+        Me.Label2.Size = New System.Drawing.Size(292, 66)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Bangun Datar"
         '
@@ -155,10 +155,10 @@ Partial Class BangunDatar
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(88, 305)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(82, 20)
+        Me.Label3.Size = New System.Drawing.Size(91, 28)
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "Lingkaran"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -166,10 +166,10 @@ Partial Class BangunDatar
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(346, 305)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 20)
+        Me.Label4.Size = New System.Drawing.Size(73, 28)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Persegi"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -177,10 +177,10 @@ Partial Class BangunDatar
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(584, 305)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(69, 20)
+        Me.Label5.Size = New System.Drawing.Size(80, 28)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "Segitiga"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -188,10 +188,10 @@ Partial Class BangunDatar
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(799, 305)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(131, 20)
+        Me.Label6.Size = New System.Drawing.Size(141, 28)
         Me.Label6.TabIndex = 14
         Me.Label6.Text = "Persegi Panjang"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -199,10 +199,10 @@ Partial Class BangunDatar
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(71, 582)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(114, 20)
+        Me.Label7.Size = New System.Drawing.Size(127, 28)
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Belah Ketupat"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -210,10 +210,10 @@ Partial Class BangunDatar
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(314, 582)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(117, 20)
+        Me.Label8.Size = New System.Drawing.Size(133, 28)
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "Layang-layang"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -221,10 +221,10 @@ Partial Class BangunDatar
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(569, 582)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(113, 20)
+        Me.Label9.Size = New System.Drawing.Size(121, 28)
         Me.Label9.TabIndex = 17
         Me.Label9.Text = "Jajar Genjang"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -232,10 +232,10 @@ Partial Class BangunDatar
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Plus Jakarta Sans", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(825, 582)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(88, 20)
+        Me.Label10.Size = New System.Drawing.Size(95, 28)
         Me.Label10.TabIndex = 18
         Me.Label10.Text = "Trapesium"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -243,7 +243,7 @@ Partial Class BangunDatar
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(39, 633)
         Me.Button9.Name = "Button9"
