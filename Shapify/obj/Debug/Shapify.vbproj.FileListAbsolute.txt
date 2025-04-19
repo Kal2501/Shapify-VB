@@ -1,0 +1,17 @@
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\bin\Debug\Shapify.exe.config
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\bin\Debug\Shapify.exe
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\bin\Debug\Shapify.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\bin\Debug\Shapify.xml
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.exe
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.xml
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.Form2.resources
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.Form3.resources
+C:\Users\USER\AppData\Local\Temporary Projects\Shapify\obj\Debug\Shapify.Form4.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\bin\Debug\Shapify.exe.config
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.pdb
