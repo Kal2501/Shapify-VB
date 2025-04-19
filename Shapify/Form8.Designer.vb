@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form8
+Partial Class PersegiPanjang
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,30 +22,30 @@ Partial Class Form8
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form8))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PersegiPanjang))
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtLebar2 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtPanjang2 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtLebar = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtPanjang = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbLuas = New System.Windows.Forms.Label()
+        Me.lbKeliling = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Black
-        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(521, 548)
         Me.Button2.Name = "Button2"
@@ -54,48 +54,39 @@ Partial Class Form8
         Me.Button2.Text = "Hitung"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'TextBox4
+        'txtLebar2
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(521, 494)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox4.TabIndex = 83
-        Me.TextBox4.Text = "Hasil"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(521, 452)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox5.TabIndex = 82
-        Me.TextBox5.Text = "Lebar"
+        Me.txtLebar2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLebar2.Location = New System.Drawing.Point(521, 452)
+        Me.txtLebar2.Name = "txtLebar2"
+        Me.txtLebar2.Size = New System.Drawing.Size(446, 24)
+        Me.txtLebar2.TabIndex = 82
+        Me.txtLebar2.Text = "Lebar"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(512, 341)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(129, 50)
+        Me.Label6.Size = New System.Drawing.Size(121, 36)
         Me.Label6.TabIndex = 81
         Me.Label6.Text = "Keliling"
         '
-        'TextBox6
+        'txtPanjang2
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(521, 406)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox6.TabIndex = 80
-        Me.TextBox6.Text = "Panjang"
+        Me.txtPanjang2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPanjang2.Location = New System.Drawing.Point(521, 406)
+        Me.txtPanjang2.Name = "txtPanjang2"
+        Me.txtPanjang2.Size = New System.Drawing.Size(446, 24)
+        Me.txtPanjang2.TabIndex = 80
+        Me.txtPanjang2.Text = "Panjang"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(46, 548)
         Me.Button1.Name = "Button1"
@@ -104,47 +95,38 @@ Partial Class Form8
         Me.Button1.Text = "Hitung"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'TextBox3
+        'txtLebar
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(46, 494)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox3.TabIndex = 78
-        Me.TextBox3.Text = "Hasil"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(46, 452)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox2.TabIndex = 77
-        Me.TextBox2.Text = "Lebar"
+        Me.txtLebar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLebar.Location = New System.Drawing.Point(46, 452)
+        Me.txtLebar.Name = "txtLebar"
+        Me.txtLebar.Size = New System.Drawing.Size(446, 24)
+        Me.txtLebar.TabIndex = 77
+        Me.txtLebar.Text = "Lebar"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(37, 341)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(88, 50)
+        Me.Label5.Size = New System.Drawing.Size(84, 36)
         Me.Label5.TabIndex = 76
         Me.Label5.Text = "Luas"
         '
-        'TextBox1
+        'txtPanjang
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(46, 406)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(446, 26)
-        Me.TextBox1.TabIndex = 75
-        Me.TextBox1.Text = "Panjang"
+        Me.txtPanjang.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPanjang.Location = New System.Drawing.Point(46, 406)
+        Me.txtPanjang.Name = "txtPanjang"
+        Me.txtPanjang.Size = New System.Drawing.Size(446, 24)
+        Me.txtPanjang.TabIndex = 75
+        Me.txtPanjang.Text = "Panjang"
         '
         'Label4
         '
-        Me.Label4.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(272, 184)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(699, 105)
@@ -155,10 +137,10 @@ Partial Class Form8
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Plus Jakarta Sans", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(266, 132)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(296, 50)
+        Me.Label3.Size = New System.Drawing.Size(285, 36)
         Me.Label3.TabIndex = 73
         Me.Label3.Text = "Pengertian Singkat"
         '
@@ -178,7 +160,7 @@ Partial Class Form8
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.Font = New System.Drawing.Font("Plus Jakarta Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(46, 640)
         Me.Button9.Name = "Button9"
@@ -191,66 +173,84 @@ Partial Class Form8
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(35, 22)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(335, 66)
+        Me.Label2.Size = New System.Drawing.Size(328, 46)
         Me.Label2.TabIndex = 70
         Me.Label2.Text = "Persegi Panjang"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(881, 48)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 33)
+        Me.Label1.Size = New System.Drawing.Size(85, 25)
         Me.Label1.TabIndex = 69
         Me.Label1.Text = "Shapify"
         '
-        'Form8
+        'lbLuas
+        '
+        Me.lbLuas.AutoSize = True
+        Me.lbLuas.Location = New System.Drawing.Point(43, 510)
+        Me.lbLuas.Name = "lbLuas"
+        Me.lbLuas.Size = New System.Drawing.Size(51, 17)
+        Me.lbLuas.TabIndex = 85
+        Me.lbLuas.Text = "Hasil : "
+        '
+        'lbKeliling
+        '
+        Me.lbKeliling.AutoSize = True
+        Me.lbKeliling.Location = New System.Drawing.Point(518, 510)
+        Me.lbKeliling.Name = "lbKeliling"
+        Me.lbKeliling.Size = New System.Drawing.Size(51, 17)
+        Me.lbKeliling.TabIndex = 86
+        Me.lbKeliling.Text = "Hasil : "
+        '
+        'PersegiPanjang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1006, 721)
+        Me.Controls.Add(Me.lbKeliling)
+        Me.Controls.Add(Me.lbLuas)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtLebar2)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.txtPanjang2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtLebar)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPanjang)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form8"
-        Me.Text = "Form8"
+        Me.Name = "PersegiPanjang"
+        Me.Text = "Persegi Panjang"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLebar2 As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPanjang2 As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLebar As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPanjang As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lbLuas As System.Windows.Forms.Label
+    Friend WithEvents lbKeliling As System.Windows.Forms.Label
 End Class

@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Shapify.Form1
+            Me.MainForm = Global.Shapify.Welcome
         End Sub
     End Class
 End Namespace

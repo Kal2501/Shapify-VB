@@ -15,3 +15,31 @@ C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\bin\Debug\Sh
 C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.exe
 C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.xml
 C:\Users\USER\Documents\Visual Studio 2012\Projects\Shapify\Shapify\obj\Debug\Shapify.pdb
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\bin\Debug\Shapify.exe.config
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.exe
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.xml
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.pdb
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\bin\Debug\Shapify.exe
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\bin\Debug\Shapify.pdb
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\bin\Debug\Shapify.xml
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Welcome.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.LayangLayang.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.JajarGenjang.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Trapesium.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Kubus.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Balok.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Tabung.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.PrismaSegitiga.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Bola.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Kerucut.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.LimasSegiEmpat.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Home.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.BangunDatar.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.BangunRuang.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Lingkaran.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Persegi.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Segitiga.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.PersegiPanjang.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.BelahKetupat.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.Resources.resources
+D:\kuliah\Semester 4\Pemvis\UTS\Shapify-VB\Shapify\obj\Debug\Shapify.vbproj.GenerateResource.Cache

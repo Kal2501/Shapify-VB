@@ -1,7 +1,10 @@
-﻿Public Class Form1
+﻿Public Class Welcome
     Const WM_NCHITTEST As Integer = &H84
     Const HTCLIENT As Integer = &H1
     Const HTCAPTION As Integer = &H2
+    Dim first As Boolean = False
+
+
     Protected Overrides Sub WndProc(ByRef m As System.Windows.Forms.Message)
         Select Case m.Msg
             Case WM_NCHITTEST
@@ -39,7 +42,11 @@
         Timer1.Stop()
         Timer2.Stop()
         Timer3.Stop()
-        Form2.Show()
+        If first = False Then
+            Home.Show()
+            first = True
+        End If
+        Me.Hide()
     End Sub
 
 End Class
